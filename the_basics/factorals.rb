@@ -1,15 +1,6 @@
-# factorals
+# factorals.rb
 
-
-def factoral(n)
-  count = n
-  until count == 0
-    n = n * (n-1)
-    n -=1
-    count -= 1
-  end
-
-  puts n
-end
-
-puts factoral(5)
+puts 5*4*3*2*1
+puts 6*5*4*3*2*1
+puts 7*6*5*4*3*2*1
+puts 8*7*6*5*4*3*2*1
