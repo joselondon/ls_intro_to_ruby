@@ -1,5 +1,5 @@
 # q_3_number_range_finder.rb
-
+=begin
 def num_range_finder(num)
   if (num >= 0) && (num <= 50)
     puts "Your number is between 0 and 50"
@@ -11,7 +11,22 @@ def num_range_finder(num)
     puts "Error your number is below 0"
   end
 end
+=end
 
+def num_range_finder(num)
+  case num
+  when 0..50
+    puts "Your number is between 0 and 50"
+  when 51..100
+    puts "Your number is between 51 and 100"
+  when num >= 101
+    puts "Your number is more than 100"
+  when num < 0
+    puts "Error your number is below 0"
+  end
+end
+
+=begin
 num_range_finder(0)
 puts
 num_range_finder(100)
@@ -22,6 +37,7 @@ num_range_finder(50)
 puts
 num_range_finder(49)
 puts
+=end
 num_range_finder(-1)
 puts
-num_range_finder(101)
+num_range_finder(200)
