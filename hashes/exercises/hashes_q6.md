@@ -12,6 +12,7 @@ my_hash2 = {x => "some value"}
 
 Answer:  
 my_hash uses a symbol :x as the key.
+
 my_hash2 uses the value of the x variable as the key.
 
 
