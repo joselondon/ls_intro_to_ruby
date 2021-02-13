@@ -16,6 +16,13 @@ words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
 (etc)
 =end
 
-words.map do |element|
-  element 
+def anagram_finder(word1, word2)
+  if word1.chars.sort == word2.chars.sort
+    true
+  else
+    false
+  end
 end
+
+p anagram_finder(words[0], words[1])
+
