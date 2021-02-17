@@ -1,9 +1,10 @@
 # passing_block.rb
 
-def take_block(&block)
-  block.call
+def take_block(number, &block)
+  block.call(number)
 end
 
-take_block do
-  puts "Block being called in the method!"
+numb = 42
+take_block(numb) do |num|
+  puts "Block being called in the method! #{num}"
 end
