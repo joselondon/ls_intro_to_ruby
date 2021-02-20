@@ -13,8 +13,12 @@ string_array.each do |string|
   end
 end
 
-puts
+puts ""
 
+# if we want to include 'Lab' and 'lab' pattern matches exist in the strings
 
-
-
+string_array.each do |string|
+  if string =~ /(?i)lab/
+    p string
+  end
+end
