@@ -9,5 +9,4 @@ execute { puts "Hello from inside the execute method!" }
 ```
 
 ### Answer:-
-Will print 'Hello from inside the execute method!' to the screen.
-
+Nothing as the .call method is not invoked on the block in the method.
