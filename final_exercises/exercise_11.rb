@@ -13,10 +13,3 @@ contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 #    "Sally Johnson"=>{:email=>"sally@email.com", :address=>"404 Not Found Dr.",  :phone=>"123-234-3454"}
 #  }
 
-
-
-contacts.each do |k, v|
-  contact_data.each {|e| contacts[k] = e }
-end
-
-p contacts
