@@ -19,3 +19,4 @@ contacts.each do |k, v|
   contact_data.each {|e| contacts[k] = e }
 end
 
+p contacts
