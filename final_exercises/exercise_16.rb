@@ -16,3 +16,4 @@ contact_fields.each do |field|
 end
 
 p contacts
+
