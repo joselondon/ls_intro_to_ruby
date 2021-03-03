@@ -16,10 +16,10 @@ contacts = {"Joe Smith" => {}, "Sally Johnson" => {}, "Be at one" => {}}
 
 contact_fields = [:email, :address, :phone]
 
-contacts.each do |k, v|
+contacts.each do |key, val|
   contact_fields.each do |field|
     contact_data.shift if contact_data[0][0] == nil
-    contacts[k][field] = contact_data.first.shift
+    contacts[key][field] = contact_data.first.shift
   end
 end
 
