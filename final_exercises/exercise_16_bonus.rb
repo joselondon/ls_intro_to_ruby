@@ -15,8 +15,6 @@ contacts = {"Joe Smith" => {}, "Sally Johnson" => {}, "Be at one" => {}}
 
 
 contact_fields = [:email, :address, :phone]
-i0 = 0
-i1 = 0
 
 contacts.each do |k, v|
   contact_fields.each do |field|
